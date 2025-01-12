@@ -27,7 +27,7 @@ add_alias() {
     # fi
 
     # Gets the alias file
-    shell_rc="$HOME/.aliaszshrc"
+    shell_rc="$HOME/.config/zsh/.aliaszshrc"
 
     # Add the alias to the configuration file
     echo "alias $alias_name='$alias_command'" >>"$shell_rc"
